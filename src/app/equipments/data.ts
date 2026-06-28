@@ -56,7 +56,7 @@ import spiderBeam from './special-attachments/spider-beam.jpeg';
 export const categories = [
   {
     id: 'construction-equipments',
-    title: 'Earth Moving Equipments',
+    title: 'Construction Equipments',
     description: 'Heavy machinery for all your earth moving and construction needs.',
     previewImage: articulatedDumpTruck,
     items: [
