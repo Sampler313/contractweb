@@ -113,23 +113,23 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-white/50 text-sm">
                 <MapPin size={16} className="text-brand-orange mt-0.5 flex-shrink-0" />
-                <span>Eastern Province, Kingdom of Saudi Arabia</span>
+                <span>1st Floor, Al Jabal Street near Saudi Airlines, Jubail City Center, Al Jubail 31951, Saudi Arabia</span>
               </li>
               <li className="flex items-center gap-3 text-white/50 text-sm">
                 <Phone size={16} className="text-brand-orange flex-shrink-0" />
                 <a href="tel:+966500000000" className="hover:text-brand-orange transition-colors">
-                  +966 50 000 0000
+                  +966 541242777
                 </a>
               </li>
               <li className="flex items-center gap-3 text-white/50 text-sm">
                 <Mail size={16} className="text-brand-orange flex-shrink-0" />
                 <a href="mailto:info@gmgce.com" className="hover:text-brand-orange transition-colors">
-                  info@gmgce.com
+                  sales@mountainksa.com
                 </a>
               </li>
               <li className="flex items-start gap-3 text-white/50 text-sm">
                 <Clock size={16} className="text-brand-orange mt-0.5 flex-shrink-0" />
-                <span>Sun – Thu: 8:00 AM – 5:00 PM</span>
+                <span>Sat – Thu: 8:00 AM – 6:00 PM</span>
               </li>
             </ul>
           </div>

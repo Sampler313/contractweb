@@ -82,9 +82,9 @@ export default function AboutPage() {
             <ScrollReveal direction="right">
               <div className="grid grid-cols-2 gap-4">
                 {[
-                  { value: 15, suffix: "+", label: "Years Serving KSA" },
-                  { value: 500, suffix: "+", label: "Projects Completed" },
-                  { value: 300, suffix: "+", label: "Qualified Personnel" },
+                  { value: 5, suffix: "+", label: "Years Serving KSA" },
+                  { value: 250, suffix: "+", label: "Projects Completed" },
+                  { value: 200, suffix: "+", label: "Qualified Personnel" },
                   { value: 50, suffix: "+", label: "Equipment Units" },
                 ].map((s, i) => (
                   <div key={i} className="bg-brand-light p-6 border-l-4 border-brand-orange">

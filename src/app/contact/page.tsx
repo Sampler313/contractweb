@@ -13,24 +13,24 @@ const contactCards = [
   {
     icon: Phone,
     title: "Call Us",
-    primary: "+966 50 000 0000",
-    secondary: "+966 50 000 0001",
+    primary: "+966 541242777",
+    secondary: "+966 549164777",
     action: "tel:+966500000000",
     actionLabel: "Call Now",
   },
   {
     icon: Mail,
     title: "Email Us",
-    primary: "info@gmgce.com",
-    secondary: "projects@gmgce.com",
-    action: "mailto:info@gmgce.com",
+    primary: "sales@mountainksa.com",
+    secondary: "admin@mountainksa.com",
+    action: "mailto:sales@mountainksa.com",
     actionLabel: "Send Email",
   },
   {
     icon: MapPin,
     title: "Visit Us",
-    primary: "Eastern Province",
-    secondary: "Kingdom of Saudi Arabia",
+    primary: "1st Floor, Al Jabal Street near Saudi Airlines",
+    secondary: "Jubail City Center, Al Jubail 31951 Kingdom of Saudi Arabia",
     action: "#map",
     actionLabel: "View Map",
   },
@@ -170,22 +170,22 @@ export default function ContactPage() {
                     {
                       icon: MapPin,
                       title: "Office Address",
-                      lines: ["Eastern Province", "Kingdom of Saudi Arabia"],
+                      lines: ["1st Floor, Al Jabal Street near Saudi Airlines, Jubail City Center, Al Jubail 31951 Kingdom of Saudi Arabia"],
                     },
                     {
                       icon: Phone,
                       title: "Phone Numbers",
-                      lines: ["+966 50 000 0000", "+966 50 000 0001"],
+                      lines: ["+966 541242777", "+966 549164777"],
                     },
                     {
                       icon: Mail,
                       title: "Email Addresses",
-                      lines: ["info@gmgce.com", "projects@gmgce.com"],
+                      lines: ["sales@mountainksa.com", "admin@mountainksa.com"],
                     },
                     {
                       icon: Clock,
                       title: "Working Hours",
-                      lines: ["Sunday – Thursday", "8:00 AM – 5:00 PM (AST)"],
+                      lines: ["Saturday – Thursday", "8:00 AM – 6:00 PM (AST)"],
                     },
                   ].map((item, i) => (
                     <div key={i} className="bg-white border border-gray-100 p-5 flex gap-4">

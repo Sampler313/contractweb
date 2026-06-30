@@ -138,7 +138,7 @@ export default function HeroSection() {
             <div className="absolute inset-0 bg-gradient-to-r from-black/65 via-black/40 to-transparent" />
 
             {/* Content */}
-            <div className="relative z-10 h-full flex items-center max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-16">
+            <div className="relative z-10 h-full flex items-center max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-36 pb-16">
               <div className="max-w-3xl">
 
                 {/* Eyebrow */}
