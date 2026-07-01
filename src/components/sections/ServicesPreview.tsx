@@ -96,7 +96,7 @@ export default function ServicesPreview() {
               What We Deliver
             </h2>
             <div className="slash-divider mb-4" />
-            <p className="text-white/50 max-w-xl">
+            <p className="text-white max-w-xl">
               Comprehensive industrial solutions designed to support every stage of your project lifecycle.
             </p>
           </div>
@@ -158,7 +158,7 @@ export default function ServicesPreview() {
                   </div>
 
                   <h3 className="text-white font-bold text-lg mb-2 line-clamp-1">{service.title}</h3>
-                  <p className="text-white/50 text-xs leading-relaxed mb-4 min-h-[50px] line-clamp-3">{service.desc}</p>
+                  <p className="text-white text-xs leading-relaxed mb-4 min-h-[50px] line-clamp-3">{service.desc}</p>
                 </div>
 
                 <div>
@@ -167,7 +167,7 @@ export default function ServicesPreview() {
                     {service.tags.slice(0, 2).map((tag) => (
                       <span
                         key={tag}
-                        className="text-[9px] font-bold tracking-wider uppercase px-2 py-1 border border-white/10 text-white/40"
+                        className="text-[9px] font-bold tracking-wider uppercase px-2 py-1 border border-white/10 text-white"
                       >
                         {tag}
                       </span>

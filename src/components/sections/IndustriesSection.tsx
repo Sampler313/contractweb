@@ -52,7 +52,7 @@ export default function IndustriesSection() {
                   <h3 className="font-bold text-brand-black group-hover:text-white text-sm mb-1 transition-colors duration-300">
                     {industry.label}
                   </h3>
-                  <p className="text-brand-gray group-hover:text-white/80 text-xs leading-relaxed transition-colors duration-300">
+                  <p className="text-brand-gray group-hover:text-white text-xs leading-relaxed transition-colors duration-300">
                     {industry.desc}
                   </p>
                 </div>

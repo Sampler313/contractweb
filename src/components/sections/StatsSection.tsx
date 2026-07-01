@@ -26,7 +26,7 @@ export default function StatsSection() {
               <div className="text-white font-bold text-sm uppercase tracking-wider mb-1">
                 {stat.label}
               </div>
-              <div className="text-white/70 text-xs">{stat.desc}</div>
+              <div className="text-white text-xs">{stat.desc}</div>
             </div>
           ))}
         </div>

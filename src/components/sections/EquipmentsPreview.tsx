@@ -18,7 +18,7 @@ export default function EquipmentsPreview() {
             Featured Equipment
           </h2>
           <div className="slash-divider mx-auto mb-4" />
-          <p className="text-white/50 max-w-2xl mx-auto">
+          <p className="text-white max-w-2xl mx-auto">
             Explore our vast fleet of reliable machinery, vehicles, and specialized attachments tailored for any industrial requirement.
           </p>
         </div>
@@ -48,7 +48,7 @@ export default function EquipmentsPreview() {
                 <h3 className={`text-white font-bold leading-tight mb-1 sm:mb-2 ${i === 0 ? 'text-2xl sm:text-3xl lg:text-4xl' : 'text-base sm:text-xl'}`}>
                   {cat.title}
                 </h3>
-                <p className={`text-white/70 mb-2 sm:mb-4 line-clamp-2 ${i === 0 ? 'text-sm sm:text-base max-w-md' : 'text-xs sm:text-sm'}`}>
+                <p className={`text-white mb-2 sm:mb-4 line-clamp-2 ${i === 0 ? 'text-sm sm:text-base max-w-md' : 'text-xs sm:text-sm'}`}>
                   {cat.description}
                 </p>
                 

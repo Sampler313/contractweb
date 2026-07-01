@@ -36,7 +36,7 @@ export default function CTASection() {
             <br />
             Your Next Project?
           </h2>
-          <p className="text-white/80 text-lg max-w-xl mx-auto mb-10">
+          <p className="text-white text-lg max-w-xl mx-auto mb-10">
             Tell us about your requirements and our team will respond with a tailored solution within 24 hours.
           </p>
 

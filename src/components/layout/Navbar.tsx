@@ -63,7 +63,7 @@ export default function Navbar() {
                   className={`text-sm font-semibold uppercase tracking-wider transition-colors duration-200 relative group ${
                     pathname === link.href
                       ? "text-brand-orange"
-                      : "text-white/80 hover:text-white"
+                      : "text-white hover:text-white"
                   }`}
                 >
                   {link.label}
@@ -107,7 +107,7 @@ export default function Navbar() {
                 key={link.href}
                 href={link.href}
                 className={`text-sm font-semibold uppercase tracking-wider py-3 border-b border-white/5 transition-colors ${
-                  pathname === link.href ? "text-brand-orange" : "text-white/80"
+                  pathname === link.href ? "text-brand-orange" : "text-white"
                 }`}
               >
                 {link.label}

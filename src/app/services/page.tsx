@@ -186,7 +186,7 @@ export default function ServicesPage() {
             Our Services
           </h1>
           <div className="slash-divider mb-6" />
-          <p className="text-white/50 text-lg max-w-2xl">
+          <p className="text-white text-lg max-w-2xl">
             Comprehensive industrial solutions covering equipment, people, materials, and operational support across Saudi Arabia.
           </p>
         </div>
@@ -200,7 +200,7 @@ export default function ServicesPage() {
               <a
                 key={s.id}
                 href={`#${s.id}`}
-                className="text-white/50 hover:text-brand-orange text-[10px] font-bold uppercase tracking-[0.15em] whitespace-nowrap transition-colors duration-200 pb-1 border-b-2 border-transparent hover:border-brand-orange flex-shrink-0"
+                className="text-white hover:text-brand-orange text-[10px] font-bold uppercase tracking-[0.15em] whitespace-nowrap transition-colors duration-200 pb-1 border-b-2 border-transparent hover:border-brand-orange flex-shrink-0"
               >
                 {s.title}
               </a>
@@ -308,7 +308,7 @@ function ServiceInquiryForm() {
           { label: "Phone Number", type: "tel", placeholder: "+966 5X XXX XXXX" },
         ].map((field) => (
           <div key={field.label}>
-            <label className="block text-white/60 text-xs font-bold uppercase tracking-wider mb-2">
+            <label className="block text-white text-xs font-bold uppercase tracking-wider mb-2">
               {field.label}
             </label>
             <input
@@ -320,10 +320,10 @@ function ServiceInquiryForm() {
         ))}
 
         <div className="md:col-span-2">
-          <label className="block text-white/60 text-xs font-bold uppercase tracking-wider mb-2">
+          <label className="block text-white text-xs font-bold uppercase tracking-wider mb-2">
             Service Required
           </label>
-          <select className="w-full bg-white/5 border border-white/10 text-white/60 px-4 py-3 text-sm focus:outline-none focus:border-brand-orange transition-colors duration-200">
+          <select className="w-full bg-white/5 border border-white/10 text-white px-4 py-3 text-sm focus:outline-none focus:border-brand-orange transition-colors duration-200">
             <option value="">Select a service</option>
             <option>Equipment Rental</option>
             <option>Manpower Supply</option>
@@ -336,7 +336,7 @@ function ServiceInquiryForm() {
         </div>
 
         <div className="md:col-span-2">
-          <label className="block text-white/60 text-xs font-bold uppercase tracking-wider mb-2">
+          <label className="block text-white text-xs font-bold uppercase tracking-wider mb-2">
             Message / Requirements
           </label>
           <textarea

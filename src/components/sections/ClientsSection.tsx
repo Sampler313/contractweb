@@ -32,7 +32,7 @@ export default function ClientsSection() {
         <h2 className="text-2xl sm:text-3xl font-black text-white">
           Our Valued <span className="text-brand-orange">Clients</span>
         </h2>
-        <p className="mt-3 text-white/40 text-sm max-w-md mx-auto">
+        <p className="mt-3 text-white text-sm max-w-md mx-auto">
           Proud to serve industry leaders across Saudi Arabia
         </p>
       </div>

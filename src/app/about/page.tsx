@@ -63,7 +63,7 @@ export default function AboutPage() {
             Who We Are
           </h1>
           <div className="slash-divider mb-6" />
-          <p className="text-white/50 text-lg max-w-2xl">
+          <p className="text-white text-lg max-w-2xl">
             A Saudi Arabian industrial services company dedicated to supporting industrial projects with reliable, efficient, and professional solutions.
           </p>
         </div>
@@ -126,7 +126,7 @@ export default function AboutPage() {
                 </div>
                 <span className="text-brand-orange text-xs font-bold tracking-[0.25em] uppercase block mb-3">Our Mission</span>
                 <h3 className="text-white text-2xl font-black mb-4">What Drives Us</h3>
-                <p className="text-white/60 leading-relaxed">
+                <p className="text-white leading-relaxed">
                   To provide reliable industrial services and solutions that empower businesses, support industrial growth, and contribute to the Kingdom of Saudi Arabia&apos;s sustainable development — delivering quality, value, and professionalism on every engagement.
                 </p>
               </div>
@@ -140,7 +140,7 @@ export default function AboutPage() {
                 </div>
                 <span className="text-brand-orange text-xs font-bold tracking-[0.25em] uppercase block mb-3">Our Vision</span>
                 <h3 className="text-white text-2xl font-black mb-4">Where We&apos;re Headed</h3>
-                <p className="text-white/60 leading-relaxed">
+                <p className="text-white leading-relaxed">
                   To become a trusted leader in industrial support services across Saudi Arabia and the GCC region — recognized for our reliability, our people, and our ability to deliver complex industrial solutions with consistent excellence.
                 </p>
               </div>

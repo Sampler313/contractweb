@@ -157,7 +157,7 @@ export default function HeroSection() {
                 </h1>
 
                 {/* Description */}
-                <p className="text-white/80 text-lg lg:text-xl leading-relaxed max-w-xl mb-10">
+                <p className="text-white text-lg lg:text-xl leading-relaxed max-w-xl mb-10">
                   {slide.description}
                 </p>
 
@@ -173,7 +173,7 @@ export default function HeroSection() {
                 </div>
 
                 {/* Tagline */}
-                <p className="mt-12 text-white/40 text-xs font-medium tracking-[0.2em] uppercase">
+                <p className="mt-12 text-white text-xs font-medium tracking-[0.2em] uppercase">
                   {slide.tagline}
                 </p>
 
@@ -218,12 +218,12 @@ export default function HeroSection() {
       </div>
 
       {/* Slide counter */}
-      <div className="absolute bottom-20 right-8 z-[10] text-white/40 text-xs font-medium tracking-[0.2em] uppercase">
+      <div className="absolute bottom-20 right-8 z-[10] text-white text-xs font-medium tracking-[0.2em] uppercase">
         {slides[current].label} &nbsp;{current + 1} / {slides.length}
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-[10] flex flex-col items-center gap-2 text-white/40 animate-bounce">
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-[10] flex flex-col items-center gap-2 text-white animate-bounce">
         <ArrowDown size={20} />
       </div>
 

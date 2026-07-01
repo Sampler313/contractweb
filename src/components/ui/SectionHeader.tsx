@@ -31,7 +31,7 @@ export default function SectionHeader({ eyebrow, title, subtitle, align = "cente
       {subtitle && (
         <p
           className={`mt-5 text-base lg:text-lg leading-relaxed max-w-2xl ${
-            light ? "text-white/60" : "text-brand-gray"
+            light ? "text-white" : "text-brand-gray"
           } ${align === "center" ? "text-center" : ""}`}
         >
           {subtitle}

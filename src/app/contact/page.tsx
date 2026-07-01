@@ -68,7 +68,7 @@ export default function ContactPage() {
             Contact Us
           </h1>
           <div className="slash-divider mb-6" />
-          <p className="text-white/50 text-lg max-w-2xl">
+          <p className="text-white text-lg max-w-2xl">
             Ready to discuss your project requirements? Our team is standing by to provide you with a tailored industrial services solution.
           </p>
         </div>
@@ -84,9 +84,9 @@ export default function ContactPage() {
                   <card.icon size={20} className="text-white" />
                 </div>
                 <div className="flex-1 min-w-0">
-                  <div className="text-white/70 text-xs font-bold uppercase tracking-wider mb-0.5">{card.title}</div>
+                  <div className="text-white text-xs font-bold uppercase tracking-wider mb-0.5">{card.title}</div>
                   <div className="text-white font-bold text-sm truncate">{card.primary}</div>
-                  <div className="text-white/60 text-xs">{card.secondary}</div>
+                  <div className="text-white text-xs">{card.secondary}</div>
                 </div>
                 <a
                   href={card.action}
