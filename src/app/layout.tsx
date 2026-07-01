@@ -166,9 +166,13 @@ export default function RootLayout({
     <html lang="en" className={inter.className}>
       <body>
         <JsonLd data={siteSchema} />
-        <Navbar />
+        <div className="print:hidden">
+          <Navbar />
+        </div>
         <main>{children}</main>
-        <Footer />
+        <div className="print:hidden">
+          <Footer />
+        </div>
       </body>
     </html>
   );

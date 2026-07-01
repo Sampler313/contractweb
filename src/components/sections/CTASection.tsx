@@ -47,7 +47,7 @@ export default function CTASection() {
             </Link>
             <a href="tel:+966500000000" className="inline-flex items-center gap-2 text-white font-semibold text-sm uppercase tracking-wider hover:gap-4 transition-all duration-200">
               <Phone size={16} />
-              +966 50 000 0000
+              +966 541242777
             </a>
           </div>
         </ScrollReveal>
