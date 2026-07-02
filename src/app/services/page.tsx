@@ -15,6 +15,7 @@ import ScrollReveal from "@/components/ui/ScrollReveal";
 import SectionHeader from "@/components/ui/SectionHeader";
 import CTASection from "@/components/sections/CTASection";
 import JsonLd from "@/components/seo/JsonLd";
+import ServiceInquiryForm from "@/components/ui/ServiceInquiryForm";
 
 export const metadata: Metadata = {
   title: "Industrial Services in Saudi Arabia",
@@ -297,62 +298,4 @@ export default function ServicesPage() {
   );
 }
 
-function ServiceInquiryForm() {
-  return (
-    <div className="bg-white/5 border border-white/10 p-8 lg:p-12">
-      <div className="grid md:grid-cols-2 gap-6">
-        {[
-          { label: "Full Name", type: "text", placeholder: "Your full name" },
-          { label: "Company Name", type: "text", placeholder: "Your company" },
-          { label: "Email Address", type: "email", placeholder: "your@email.com" },
-          { label: "Phone Number", type: "tel", placeholder: "+966 5X XXX XXXX" },
-        ].map((field) => (
-          <div key={field.label}>
-            <label className="block text-white text-xs font-bold uppercase tracking-wider mb-2">
-              {field.label}
-            </label>
-            <input
-              type={field.type}
-              placeholder={field.placeholder}
-              className="w-full bg-white/5 border border-white/10 text-white placeholder-white/20 px-4 py-3 text-sm focus:outline-none focus:border-brand-orange transition-colors duration-200"
-            />
-          </div>
-        ))}
 
-        <div className="md:col-span-2">
-          <label className="block text-white text-xs font-bold uppercase tracking-wider mb-2">
-            Service Required
-          </label>
-          <select className="w-full bg-white/5 border border-white/10 text-white px-4 py-3 text-sm focus:outline-none focus:border-brand-orange transition-colors duration-200">
-            <option value="">Select a service</option>
-            <option>Equipment Rental</option>
-            <option>Manpower Supply</option>
-            <option>Trading and Material Supply</option>
-            <option>Portacabin & Container Services</option>
-            <option>Heavy Lifting Services</option>
-            <option>Transportation & Logistics</option>
-            <option>Multiple Services</option>
-          </select>
-        </div>
-
-        <div className="md:col-span-2">
-          <label className="block text-white text-xs font-bold uppercase tracking-wider mb-2">
-            Message / Requirements
-          </label>
-          <textarea
-            rows={4}
-            placeholder="Describe your project requirements..."
-            className="w-full bg-white/5 border border-white/10 text-white placeholder-white/20 px-4 py-3 text-sm focus:outline-none focus:border-brand-orange transition-colors duration-200 resize-none"
-          />
-        </div>
-      </div>
-
-      <div className="mt-6">
-        <button className="btn-primary w-full sm:w-auto justify-center">
-          Submit Inquiry
-          <ChevronRight size={16} />
-        </button>
-      </div>
-    </div>
-  );
-}

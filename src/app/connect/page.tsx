@@ -31,7 +31,7 @@ const CONTACT_INFO = {
 
 export default function ConnectPage() {
   return (
-    <main className="min-h-screen bg-brand-black pt-32 pb-20 px-4 sm:px-8 print:bg-white print:p-0 print:min-h-0">
+    <main className="bg-brand-black pt-32 pb-2 px-4 sm:px-8 print:bg-white print:p-0 print:min-h-0">
       {/* ─── Screen UI ─── */}
       <div className="w-full max-w-md mx-auto bg-[#111111] border border-white/10 rounded-3xl p-6 sm:p-8 shadow-2xl relative overflow-hidden print:hidden">
         {/* Abstract Background Accent */}
