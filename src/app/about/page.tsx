@@ -96,7 +96,7 @@ export default function AboutPage() {
             <ScrollReveal direction="right">
               <div className="grid grid-cols-2 gap-4">
                 {[
-                  { value: 5, suffix: "+", label: "Years Serving KSA" },
+                  { value: 7, suffix: "+", label: "Years Serving KSA" },
                   { value: 250, suffix: "+", label: "Projects Completed" },
                   { value: 200, suffix: "+", label: "Qualified Personnel" },
                   { value: 50, suffix: "+", label: "Equipment Units" },

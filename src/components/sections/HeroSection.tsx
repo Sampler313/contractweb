@@ -54,7 +54,7 @@ const slides = [
       <>
         Complete
         <br />
-        <span className="text-brand-orange">JCB Fleet</span>
+        <span className="text-brand-orange">Equipment Fleet</span>
         <br />
         Built to Perform
       </>

@@ -1,7 +1,7 @@
 import AnimatedCounter from "@/components/ui/AnimatedCounter";
 
 const stats = [
-  { value: 5, suffix: "+", label: "Years of Experience", desc: "Serving Saudi industry" },
+  { value: 7, suffix: "+", label: "Years of Experience", desc: "Serving Saudi industry" },
   { value: 250, suffix: "+", label: "Projects Supported", desc: "Across the Kingdom" },
   { value: 200, suffix: "+", label: "Skilled Workforce", desc: "Qualified professionals" },
   { value: 96, suffix: "%", label: "Client Satisfaction", desc: "Repeat partnerships" },
